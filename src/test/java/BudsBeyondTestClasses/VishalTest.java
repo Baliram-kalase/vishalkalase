@@ -6,8 +6,8 @@ import org.testng.annotations.Test;
 public class VishalTest {
   @Test
   public void get() {
-	  ChromeDriver driver= new ChromeDriver();
-	  driver.navigate().to("www.");
+
+	  System.out.println("Hi This is first test");
 	  
 	  
   }

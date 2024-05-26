@@ -19,11 +19,13 @@ public class BudsBeyondBcHashPage
 {
 	@FindBy (xpath = "//a[text()='BC FINGER HASH']") private WebElement SelectOption;	
 	 @FindBy (xpath = "//span[text()='Yes']") private WebElement yesButton;
-	@FindBy (xpath = "fgfgfgggv") private WebElement vishal;
 //	public BudsBeyondBcHashPage(WebDriver driver) {
 //		PageFactory.initElements(driver, this);
 //	}
 	public BudsBeyondBcHashPage(WebDriver driver) {
+		PageFactory.initElements(driver, this);
+	}
+	public BudsBeyondBcHashPage(WebDriver driver,String vishal) {
 		PageFactory.initElements(driver, this);
 	}
 	 public void clickOnYesButton(WebDriver driver) {
