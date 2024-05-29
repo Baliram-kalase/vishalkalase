@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="BudsBeyondTestClasses.VishalTest"/>
+      <class name="src/test/java/BudsBeyondTestClasses/VishalTest.java"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
