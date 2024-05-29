@@ -40,9 +40,9 @@
     <artifactId>maven-surefire-plugin</artifactId>
     <version>3.2.3</version>
 			<configuration>
-			<includes>
-				<include>testng.xml</include>
-			</includes>
+			<suiteXmlFiles>
+				<suiteXmlFile>testng.xml</suiteXmlFile>
+			</suiteXmlFiles>
 		</configuration>
 			</plugin>
 					<plugin>
